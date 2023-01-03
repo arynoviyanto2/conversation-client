@@ -1,7 +1,8 @@
 import robotIcon from './assets/robot-white.svg';
 import humanIcon from './assets/human-white.svg';
 
-const serverAddress = 'http://localhost:8012';
+// const serverAddress = 'http://localhost:8012';
+const serverAddress = 'https://bulbul-chatter.onrender.com';
 const form = document.querySelector('form');
 const chatContainer = document.querySelector('#chat-container');
 const maxRequests = 5;
